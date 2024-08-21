@@ -1,0 +1,134 @@
+body{
+    color: white;
+    background-color:  rgb(230, 170, 80); 
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.topicos ul{
+    margin: -9px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 40px;
+    border: 5px solid;
+    border-color: rgb(7, 7, 7);
+    font-size: 25px;
+    background-color: rgb(230, 170, 80); 
+}
+.topicos li{
+    font-style: oblique;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.topicos a{
+    border: 3px solid;
+    padding: 20px;
+    color: rgb(245, 240, 240);
+    text-decoration: none;
+    background-color: rgb(83, 82, 59);
+    border-radius: 48%;
+}
+.topicos a:hover{
+    color: rgb(128, 124, 69);
+    text-decoration:none;
+}
+img{
+    float: left;
+    border-radius: 50%;
+    width: 160px;
+    float:left;
+    margin: 30px;
+    border: 5px solid rgb(34, 34, 34)
+    }
+.conteiner h1{
+    font-style:italic;
+    text-decoration: underline;
+    font-weight: bold;
+    border: 5px solid;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    margin: -8px;
+    padding: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    background-color: rgb(210, 231, 245);
+}
+.voltar a{
+    font-weight: bold;
+    float:right;
+    border-radius: 0%;
+    margin: 0px;
+    color: rgb(12, 12, 12);
+    padding: 16px;
+}
+.voltar a:hover{
+    color: rgb(128, 124, 69);
+    text-decoration:none;
+}
+.sobre h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    margin:3px;
+    padding: 10px;
+    color: black;
+}
+.sobre p{
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+    font-family:cursive;
+    text-align: center;
+}
+.form ul{
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+    font-family: serif;
+}
+.formulario form{
+    font-size: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.botao a{
+    padding: 5px;
+    border-radius: 10px;
+    vertical-align: middle; 
+    background:#141414; 
+    color:rgb(252, 239, 239);
+    font-size: 20px; 
+    font-family:monospace;
+    text-decoration:none;
+    margin: 10px;
+}
+.botao a:hover{
+    color: rgb(22, 192, 45);
+    text-decoration:none;
+}
+.link a{
+    font-size: 10px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    
+}
+.formulario a{
+    font-size: 20px;
+    padding: 0px;
+    border-radius: 0px;
+    color: rgb(29, 27, 25);
+}
+.portfolio h1{
+    text-align: left;
+    color: black;
+    font-size: 20;
+    font-family:serif;
+}
+.portfolio a{
+    color: black;
+    font-size: 20px;
+    font-family:cursive;
+}
